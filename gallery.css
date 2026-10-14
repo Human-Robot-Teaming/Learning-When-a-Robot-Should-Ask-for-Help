@@ -1,0 +1,8 @@
+.gallery-page { padding: 35px 0 70px; }
+.gallery-page > h1 { text-align: center; font-family: Georgia, "Times New Roman", serif; font-weight: 500; font-size: 2.5rem; }
+.gallery-group { padding: 25px 0; border-top: 1px solid var(--line); }
+.failure-block { margin: 30px 0 45px; }
+.camera-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.camera-grid figure { margin: 0; }
+.camera-grid video { width: 100%; background: #111; aspect-ratio: 4 / 3; }
+@media (max-width: 720px) { .camera-grid { grid-template-columns: 1fr; } }

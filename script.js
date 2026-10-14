@@ -1,0 +1,1 @@
+const button=document.querySelector('#copy-bibtex');button?.addEventListener('click',async()=>{const text=document.querySelector('.bibtex-box code')?.textContent??'';await navigator.clipboard.writeText(text);button.textContent='Copied';setTimeout(()=>{button.textContent='Copy'},1500)});
